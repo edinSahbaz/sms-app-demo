@@ -1,1 +1,1 @@
-message ~0123456789
+examplemessage ~333
