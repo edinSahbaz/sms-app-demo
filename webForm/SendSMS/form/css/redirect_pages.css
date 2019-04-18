@@ -82,17 +82,6 @@ html, body{
     padding-right:60px;
 }
 
-.toast__close {
-    position: absolute;
-    right: 22px;
-    top: 50%;
-    width: 14px;
-    cursor:pointer;
-    height: 14px;
-    fill:#878787;
-    transform: translateY(-50%);
-}
-
 .toast--green .toast__icon{
     background-color:#2BDE3F;
 }
@@ -102,10 +91,6 @@ html, body{
 }
 
 .toast--blue .toast__icon{
-    background-color:#1D72F3;
-}
-
-.toast--blue:before{
     background-color:#1D72F3;
 }
 
