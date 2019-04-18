@@ -18,18 +18,7 @@ if (!isset($_SESSION["error"])){
     </script>
 </head>
 <body>
-<div class="toast__container">
-    <div class="toast__cell">
-        <div class="toast toast--yellow add-margin">
-            <div class="toast__icon">
-
-            </div>
-            <div class="toast__content">
-                <p class="toast__type">Error!</p>
-                <p class="toast__message"><?php echo "Error: " .isset($_SESSION["error"]) ? $_SESSION["error"] : "undefined."?></p>
-            </div>
-        </div>
-    </div>
-</div>
+    <p>Error!</p>
+    <p><?php echo "Error: " .isset($_SESSION["error"]) ? $_SESSION["error"] : "undefined."?></p>
 </body>
 </html>
