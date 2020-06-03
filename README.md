@@ -1,7 +1,7 @@
 # SMS Sender App
 Application that sends SMS messages to designated person/phone number.
 
-## 2 PARTS:
+### 2 PARTS:
 #### 1st Part - Web Form
 Web Form for input of message and phone number which are sent from that form to C# app using PHP.
 ###### DONE BY MY COLLEAGUE
