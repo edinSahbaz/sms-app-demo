@@ -12,17 +12,6 @@ html {
   background: rgb(37, 29, 116);
 }
 
-a {
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-  transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
 p {
   font-size: 14px;
   line-height: 1.7;
@@ -36,7 +25,6 @@ li {
   list-style-type: none;
 }
 
-/*---------------------------------------------*/
 input {
   outline: none;
   border: none;
@@ -52,59 +40,6 @@ input:focus {
   border-color: transparent !important;
 }
 
-input:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-input:focus:-moz-placeholder {
-  color: transparent;
-}
-input:focus::-moz-placeholder {
-  color: transparent;
-}
-input:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-textarea:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-textarea:focus:-moz-placeholder {
-  color: transparent;
-}
-textarea:focus::-moz-placeholder {
-  color: transparent;
-}
-textarea:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-input::-webkit-input-placeholder {
-  color: #999999;
-}
-input:-moz-placeholder {
-  color: #999999;
-}
-input::-moz-placeholder {
-  color: #999999;
-}
-input:-ms-input-placeholder {
-  color: #999999;
-}
-
-textarea::-webkit-input-placeholder {
-  color: #999999;
-}
-textarea:-moz-placeholder {
-  color: #999999;
-}
-textarea::-moz-placeholder {
-  color: #999999;
-}
-textarea:-ms-input-placeholder {
-  color: #999999;
-}
-
-/*---------------------------------------------*/
 button {
   outline: none !important;
   border: none;
@@ -119,13 +54,8 @@ iframe {
   border: none !important;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Contact 2 ]*/
 .bg-contact2 {
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 .container-contact2 {
@@ -150,13 +80,6 @@ iframe {
   padding: 72px 55px 90px 55px;
 }
 
-/*------------------------------------------------------------------
-[  ]*/
-
-.contact2-form {
-  width: 100%;
-}
-
 .contact2-form-title {
   display: block;
   font-size: 39px;
@@ -165,7 +88,6 @@ iframe {
   text-align: center;
   padding-bottom: 90px;
 }
-/*------------------------------------------------------------------*/
 
 .wrap-input2 {
   width: 100%;
@@ -321,9 +243,6 @@ textarea.input2 + .focus-input2::after {
 .wrap-contact2-form-btn:hover .contact2-form-bgbtn {
   left: 0;
 }
-
-/*------------------------------------------------------------------
-[ Responsive ]*/
 
 @media (max-width: 576px) {
   .wrap-contact2 {
